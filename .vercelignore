@@ -1,0 +1,7 @@
+.git
+data/raw/
+models/
+tests/
+*.pdf
+*.pptx
+*.bat

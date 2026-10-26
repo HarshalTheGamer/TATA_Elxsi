@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "aero-shield-tata-elxsi",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/prototype", "destination": "/prototype/index.html" }
+  ]
+}
