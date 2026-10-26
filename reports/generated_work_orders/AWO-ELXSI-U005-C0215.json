@@ -1,0 +1,38 @@
+{
+  "work_order_id": "AWO-ELXSI-U005-C0215",
+  "dispatch_timestamp": "2026-10-26T15:01:05.200110+00:00",
+  "asset_id": "TURBOFAN-ENGINE-UNIT-005",
+  "current_flight_cycle": 215,
+  "predicted_rul_cycles": 10.1,
+  "severity_level": "CRITICAL",
+  "urgency_rank": 1,
+  "tier_1_autonomic_remediation": {
+    "supervisory_command": "EMERGENCY_THROTTLE_DERATE_20PCT",
+    "target_subsystem": "FADEC_THROTTLE_RESOLVER",
+    "core_temp_reduction_deg_c": 55.0,
+    "projected_cycle_extension": 8
+  },
+  "tier_2_prescriptive_maintenance": {
+    "action_code": "BORESCOPE_INSPECT_AND_OVERHAUL_HPC",
+    "required_spare_parts": [
+      "PART-BLADE-HPC-KIT-A",
+      "PART-SEAL-CORE-04"
+    ],
+    "estimated_depot_hours": 14.5,
+    "assigned_maintenance_hub": "DEPOT-NORTH-HUB-BAY-3",
+    "diagnostic_preservation_ratio_dpr": 0.88
+  },
+  "telemetry_snapshot": {
+    "sensor_2": 650.85,
+    "sensor_3": 1599.02,
+    "sensor_4": 1418.72,
+    "sensor_7": 546.4,
+    "sensor_8": 2401.48,
+    "sensor_11": 53.89,
+    "sensor_12": 512.09,
+    "sensor_14": 8112.88,
+    "sensor_15": 9.16
+  },
+  "human_exception_required": false,
+  "exception_reason": null
+}

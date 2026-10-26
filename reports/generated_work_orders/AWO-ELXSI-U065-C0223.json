@@ -1,0 +1,38 @@
+{
+  "work_order_id": "AWO-ELXSI-U065-C0223",
+  "dispatch_timestamp": "2026-10-26T15:01:05.213023+00:00",
+  "asset_id": "TURBOFAN-ENGINE-UNIT-065",
+  "current_flight_cycle": 223,
+  "predicted_rul_cycles": 21.9,
+  "severity_level": "WARNING",
+  "urgency_rank": 2,
+  "tier_1_autonomic_remediation": {
+    "supervisory_command": "APPLY_OPERATIONAL_DERATE_15PCT",
+    "target_subsystem": "FADEC_THROTTLE_RESOLVER",
+    "core_temp_reduction_deg_c": 40.0,
+    "projected_cycle_extension": 25
+  },
+  "tier_2_prescriptive_maintenance": {
+    "action_code": "SCHEDULE_HUB_INSPECTION_AND_LUBRICATION",
+    "required_spare_parts": [
+      "PART-SEAL-INSPECT-GASKET",
+      "LUBRICANT-TURBINE-SYNTH-5L"
+    ],
+    "estimated_depot_hours": 4.0,
+    "assigned_maintenance_hub": "DEPOT-NORTH-HUB-BAY-3",
+    "diagnostic_preservation_ratio_dpr": 0.88
+  },
+  "telemetry_snapshot": {
+    "sensor_2": 649.62,
+    "sensor_3": 1601.48,
+    "sensor_4": 1426.09,
+    "sensor_7": 544.76,
+    "sensor_8": 2387.71,
+    "sensor_11": 52.23,
+    "sensor_12": 515.56,
+    "sensor_14": 8153.73,
+    "sensor_15": 9.04
+  },
+  "human_exception_required": false,
+  "exception_reason": null
+}
